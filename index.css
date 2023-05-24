@@ -1,0 +1,174 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    
+}
+
+.outer-div
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.Column
+{
+    width: 300px;
+    height: 400px;
+    display:flex;
+    flex-direction: column;
+
+}
+
+#third-column
+{
+    margin:180px 0px;
+    padding: 0px;
+}
+#logo-img
+{
+    height: 300px;
+    width: 300px;
+    margin: 0xp 0xp;
+}
+
+#title-el
+{
+    font-family: 'Josefin Sans';
+    color: black;
+    text-align: center;
+}
+.main-div
+{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 20px;
+}
+
+#middle-column 
+{
+    background-image:url("whatsapp-bg.jpeg");
+    background-repeat: repeat;
+    background-size: auto 100%;
+    height: 400px;
+    border: 1px solid gray;
+    
+}
+
+.message-div
+{
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color:  gray;
+    padding: 10px 30px;
+    color: white;
+    margin-top: 5px;
+}
+
+.response-div
+{
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: #075E54;
+    padding: 10px 30px;
+    color: white;
+    margin-top: 5px;
+    display:inline-block;
+    margin-left: 225px;
+}
+
+.profile-img
+{
+    height: 300px;
+    width: 300px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#user-responses-wrap
+{
+    width: 300px;
+}
+#user-response
+{
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: #075E54;
+    padding: 10px 30px;
+    color: white;
+    margin-top: 5px;
+    display:inline-block;
+    margin-left: 183px;
+}
+
+#input-el
+{
+    width: 290px;
+    height: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color:#ECE5DD;
+    resize:none;
+    padding: 10px 0px 0px 10px;
+    margin: 3px 0px;
+    color:black;
+    font-family: 'Inter', Times, serif, 'Arial Narrow', Arial, sans-serif
+}
+
+#publish-btn
+{
+    width: 300px;
+    padding: 15px;
+    border: none;
+    background-color:#128C7E;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px; 
+
+    margin: 3px 0px
+}
+
+#list-el
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#endorsements-text
+{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+
+#list-el li
+{
+    width: 300px;
+    background-color: white;
+    color:black;
+    list-style-type: none;
+    margin: 5px 0px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+     font-family: 'Inter', Times, serif, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color: #1B1924;
+    font-weight: 100;
+}
